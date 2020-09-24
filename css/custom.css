@@ -8,4 +8,25 @@
 
 .hideResults {
     display: none;
+    animation: fadeIn ease-in-out 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
+/* Media */
+
+@media (max-width: 412px) {
+    .sakura-text {
+        color: rgb(255, 0, 0);
+    }
+
+    .button {
+        padding: .8rem;
+    }
 }

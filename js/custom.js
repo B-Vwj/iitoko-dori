@@ -13,7 +13,9 @@ function changeBtnTxt() {
 function showResults() {
     // Answers
     var results = document.getElementById("classQuiz");
+    var resultsHeader = document.getElementById("classQuizHeader");
 
     results.classList.toggle("hideResults");
+    resultsHeader.classList.toggle("hideResults");
     changeBtnTxt();
 }
