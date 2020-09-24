@@ -13,6 +13,8 @@ function changeBtnTxt() {
 function showResults() {
     // Answers
     var results = document.getElementById("classQuiz");
+    
+    // Answer Header Text
     var resultsHeader = document.getElementById("classQuizHeader");
 
     results.classList.toggle("hideResults");
